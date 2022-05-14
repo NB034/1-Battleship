@@ -324,7 +324,7 @@ void pc_turn(int** field_1, int** field_2, s_fleet& fleet_1, s_fleet& fleet_2, i
 			}
 		}
 
-		// Search for the second cell of the wrecked ship
+		// Search for the second cell of the damaged ship
 		else if (memory.decks == 1) {
 
 			cursor_1.i = memory.last_hit.i;

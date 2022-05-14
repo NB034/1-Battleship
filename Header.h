@@ -10,6 +10,7 @@
 
 // Enumeration for the cells of fields
 enum types_of_cells {
+
 	CELL_NEAR_THE_SHIP_THAT_PC_SEES = -2,
 	CELL_NEAR_THE_SHIP = -1,
 	EMPTY_CELL = 0,
@@ -20,11 +21,13 @@ enum types_of_cells {
 };
 
 struct s_point {
+
 	int i;
 	int j;
 	bool status;
 };
 struct s_ship {
+
 	int size;
 	int direction;
 	bool status;
@@ -39,11 +42,13 @@ struct s_ship {
 	}
 };
 struct s_fleet {
+
 	s_ship ships[10];
 	bool status;
 };
 struct for_AI {
-	// Нужна для того, чтобы ИИ был способен добивать корабли, по которым осуществил попадание
+	// Need for the AI to finish off the damaged ships
+
 	bool check_of_horizontal_axis : 1;
 	bool check_of_vertical_axis : 1;
 	bool check_of_first_direction : 1;
