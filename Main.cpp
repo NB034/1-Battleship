@@ -18,7 +18,7 @@ int main()
 
 	while (true) {
 
-		if (command != 110) {
+		if (command != 'n') {
 
 			system("cls");
 			title();
@@ -71,7 +71,7 @@ int main()
 			CONSOLE_SCREEN_BUFFER_INFO start_attribute;
 			GetConsoleScreenBufferInfo(hStdOut, &start_attribute);
 
-			if (command != 110) {
+			if (command != 'n') {
 
 				mode = mode_menu();
 				placement = 0;
@@ -141,7 +141,7 @@ int main()
 					pc_turn(field_player, field_PC, fleet_player, fleet_PC, mode, turn, cursor_player, cursor_PC, pc1_memory);
 				}
 
-				if (command == 109 || command == 110) {
+				if (command == 'm' || command == 'n') {
 					break;
 				}
 

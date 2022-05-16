@@ -82,7 +82,7 @@ void manual_placement(int** field, s_fleet& fleet) {
 				}
 			}
 
-			else if (arrow == 100) {
+			else if (arrow == 'd') {
 				if (fleet.ships[ship].direction) {
 					if (fleet.ships[ship].location[0].j + fleet.ships[ship].size - 1 <= 9) {
 
@@ -104,6 +104,7 @@ void manual_placement(int** field, s_fleet& fleet) {
 					}
 				}
 			}
+
 			else if (arrow == 13) {
 				if (check) {
 
@@ -154,16 +155,16 @@ int player_turn(int** field_1, int** field_2, s_fleet& fleet_1, s_fleet& fleet_2
 			}
 		}
 
-		else if (action == 109) {
+		else if (action == 'm') {
 			return action;
 		}
-		else if (action == 112) {
+		else if (action == 'p') {
 			pause = true;
 		}
-		else if (action == 99) {
+		else if (action == 'c') {
 			pause = false;
 		}
-		else if (action == 110) {
+		else if (action == 'n') {
 			return action;
 		}
 
