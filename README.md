@@ -20,3 +20,5 @@
   * Если компьютер попадает по кораблю, он ищет его, пока не уничтожит.
 
 ![Menu](https://user-images.githubusercontent.com/104451273/185737355-c04d677e-d3aa-464e-9479-40b787aa2c0f.png)
+
+![Game](https://user-images.githubusercontent.com/104451273/185737355-c04d677e-d3aa-464e-9479-40b787aa2c0f.png)
