@@ -21,4 +21,4 @@
 
 ![Menu](https://user-images.githubusercontent.com/104451273/185737355-c04d677e-d3aa-464e-9479-40b787aa2c0f.png)
 
-![Game](https://user-images.githubusercontent.com/104451273/185737355-c04d677e-d3aa-464e-9479-40b787aa2c0f.png)
+![Game](https://user-images.githubusercontent.com/104451273/185737587-e82535ca-8388-424b-8e26-fe4626cad19e.png)
